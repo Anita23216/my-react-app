@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(105, 23, 23, 0.966);
+}
+.my-library{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+}
+h2{
+    font-size: 4rem;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    font-size: 1.7rem;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+
+}
+.addbook-button{
+    background-color: rgb(7, 75, 38);
+}
+.addbook-button:hover{
+    background-color: rgb(19, 151, 41);
+}
+.addauthor-button{
+    background-color: rgb(7, 75, 38);
+}
+.addauthor-button:hover{
+    background-color: rgb(19, 151, 41);
+}
+.deletebook-button{
+    background-color: rgb(133, 7, 7);
+}
+.deletebook-button:hover{
+    background-color: rgb(212, 3, 3);
+}
+.deleteauthor-button{
+    background-color: rgb(133, 7, 7);
+}
+.deleteauthor-button:hover{
+    background-color: rgb(212, 3, 3);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid rgb(27,25,22);
+    border-radius: 25px;
+    color: black;
+    background-color: wheat;
+    
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 3px solid rgb(29, 27, 27);
+    border-radius: 10px;
+    background-color: wheat;
+}
+.text{
+    flex: 1;
+}
+.deletebook-button, .deleteauthor-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+.addbook-button, .addauthor-button{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: centers;
+    border-radius: 5px;
+}
+.showauthor-button{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: centers;
+    border-radius: 15px;
+    background-color: bisque;
+    color: black;
+}
+.displayed-author{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
